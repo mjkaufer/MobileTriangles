@@ -1,4 +1,5 @@
 git init
+git remote rm origin
 git add .
 git commit -m "Commit"
 git config --global user.name "Matthew Kaufer"
