@@ -373,7 +373,7 @@ function drawTriangle(a,b,c,ma,mb,mc){
  
     var canvas = document.getElementById('myCanvas');
     var context = canvas.getContext('2d');
-    context.clearRect ( 0 , 0 , 300 , 200 );
+    context.clearRect ( 0 , 0 , 400 , 300 );
  
     context.beginPath();
     context.moveTo(0,b);
@@ -430,7 +430,7 @@ function drawTwo(a,b,c,ma,mb,mc,a2,b2,c2,ma2,mb2,mc2){
  
     var canvas = document.getElementById('myCanvas');
     var context = canvas.getContext('2d');
-    context.clearRect ( 0 , 0 , 300 , 200 );
+    context.clearRect ( 0 , 0 , 400 , 300 );
  
     context.beginPath();
     context.moveTo(0,b);
@@ -466,7 +466,7 @@ function drawTwo(a,b,c,ma,mb,mc,a2,b2,c2,ma2,mb2,mc2){
 function clear(){
     var canvas = document.getElementById('myCanvas');
     var context = canvas.getContext('2d');
-    context.clearRect ( 0 , 0 , 300 , 200 );       
+    context.clearRect ( 0 , 0 , 400 , 300 );       
 }
  
 function getVal(x){

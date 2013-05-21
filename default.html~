@@ -20,7 +20,13 @@
     <p class="slide" style="font-size:24px;">Triangle Solver <span style="color:red;">BETA</span></p>
     </div>
 
+<div class="canvas">
+<p id="area"></p>
+<p style="position:absolute;left:5%;">Your Triangle</p>
 
+
+<canvas id="myCanvas" width="300" height="200" style="border:solid black 2px;padding:10px;border-radius:5px;"></canvas>
+</div>
 <div style="display:inline-block">
 
 <select name="side" id="choice">
@@ -52,15 +58,10 @@
 <p><span id="span6" class="sm"></span></p>
 
 </form> 
-<div class="canvas">
-<p id="area"></p>
-<p style="position:absolute;left:5%;">Your Triangle</p>
 
 
-<canvas id="myCanvas" width="300" height="200" style="border:solid black 2px;padding:10px;border-radius:5px;"></canvas>
-</div>
 
-
+<br>
 
 </div>
 </body>
